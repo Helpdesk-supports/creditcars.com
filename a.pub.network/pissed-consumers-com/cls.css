@@ -1,0 +1,107 @@
+body {
+	--fsAddBuffer: 22px;
+}
+#pissedconsumer_incontent1_review,
+#pissedconsumer_incontent2_review,
+#pissedconsumer_incontent3_review,
+#pissedconsumer_incontent1_company,
+#pissedconsumer_incontent2_company,
+#pissedconsumer_incontent3_company,
+#pissedconsumer_incontent4_company,
+#pissedconsumer_incontent1_customerservice,
+#pissedconsumer_incontent2_customerservice,
+#pissedconsumer_incontent3_customerservice,
+#pissedconsumer_leaderboard_top_review,
+#pissedconsumer_leaderboard_top_customerservice,
+#pissedconsumer_rightrail_company,
+#pissedconsumer_incontent5_company {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: calc(var(--height) + var(--fsAddBuffer));
+	width: 100%;
+}
+#pissedconsumer_incontent1_company {
+		--height: 250px;
+}
+#pissedconsumer_incontent1_customerservice {
+		--height: 250px;
+}
+#pissedconsumer_incontent1_review {
+		--height: 250px;
+}
+#pissedconsumer_incontent2_company {
+		--height: 250px;
+}
+#pissedconsumer_incontent2_customerservice {
+		--height: 250px;
+}
+#pissedconsumer_incontent2_review {
+		--height: 250px;
+}
+#pissedconsumer_incontent3_company {
+		--height: 250px;
+}
+#pissedconsumer_incontent3_customerservice {
+		--height: 250px;
+}
+#pissedconsumer_incontent3_review {
+		--height: 250px;
+}
+#pissedconsumer_incontent4_company {
+		--height: 250px;
+}
+#pissedconsumer_incontent5_company {
+		--height: 250px;
+}
+#pissedconsumer_leaderboard_top_customerservice {
+		--height: 250px;
+}
+#pissedconsumer_leaderboard_top_review {
+		--height: 250px;
+}
+@media only screen and (min-width: 768px) {
+	#pissedconsumer_incontent1_company {
+		--height: 250px;
+	}
+	#pissedconsumer_incontent1_customerservice {
+		--height: 250px;
+	}
+	#pissedconsumer_incontent1_review {
+		--height: 250px;
+	}
+	#pissedconsumer_incontent2_company {
+		--height: 250px;
+	}
+	#pissedconsumer_incontent2_customerservice {
+		--height: 250px;
+	}
+	#pissedconsumer_incontent2_review {
+		--height: 250px;
+	}
+	#pissedconsumer_incontent3_company {
+		--height: 250px;
+	}
+	#pissedconsumer_incontent3_customerservice {
+		--height: 250px;
+	}
+	#pissedconsumer_incontent3_review {
+		--height: 250px;
+	}
+	#pissedconsumer_incontent4_company {
+		--height: 250px;
+	}
+	#pissedconsumer_incontent5_company {
+		display: none; 
+	}
+	#pissedconsumer_leaderboard_top_customerservice {
+		--height: 90px;
+	}
+	#pissedconsumer_leaderboard_top_review {
+		--height: 90px;
+	}
+	#pissedconsumer_rightrail_company {
+		--height: 250px;
+	}
+}
